@@ -19,5 +19,5 @@ def cal_date(strs):
 def cal_date(strs):
     # ex. strs = "2018-10-01 00:00:00"
     date = datetime.datetime.strptime(strs, '%Y-%m-%d %H:%M:%S')
-    return date+timedelta(hours=24)
+    return date+timedelta(hours=2)
     
